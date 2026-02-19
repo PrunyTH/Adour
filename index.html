@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adour River Widget (Dax)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="widget" aria-live="polite">
+      <p class="eyebrow">Vigicrues station</p>
+      <h1>Adour — Dax</h1>
+      <p class="station">Code station: Q312003001</p>
+
+      <div class="value-block">
+        <span id="height" class="height">--.--</span>
+        <span class="unit">m</span>
+      </div>
+
+      <p id="observation-time" class="meta">Waiting for first data point…</p>
+      <p id="status" class="status">Loading…</p>
+      <button id="refresh" type="button">Refresh now</button>
+    </main>
+
+    <script src="widget.js"></script>
+  </body>
+</html>
